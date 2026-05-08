@@ -1,0 +1,124 @@
+.page {
+    max-width: 1440px;
+    min-height: 375px;    
+    background-color:hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    font-size: 16px;
+    font-family: "Outfit";
+    line-height: 20px;
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);    
+    color: black;
+    width: 600px;
+    margin: 30px 30px;
+    text-align: start;
+    border-radius: 20px;
+   
+}
+
+.content__image {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    border-radius: 12px;
+}
+
+.content__title {
+    font-family: "Young serif";
+    font-style: italic;
+    font-weight: 500;
+    font-size: 36px;
+    margin-left: 20px;
+    margin-top: 40px;
+
+}
+
+.content__description {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: 300;
+    text-align: justify;
+
+
+}
+
+.content__preparation {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 20px;
+    background-color: hsl(30, 54%, 90%, 0.3);
+    line-height: 30px;
+
+}
+
+.content__preparation-title {
+    color: hsl(332, 51%, 32%);
+    font-weight:600;
+}
+
+.content__preparation-instrucion {
+
+}
+
+.ingredients__title {
+    color:hsl(14, 45%, 36%);
+    font-weight: 500;
+    font-family: "Young serif";
+    margin-left: 30px;
+    margin-right: 30px;
+    
+
+}
+
+.ingredients__list {
+    line-height: 30px;
+     margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.instructions {
+    border-bottom: 1px solid hsl(30, 18%, 87%); 
+    padding-left: 30px;
+}
+
+.instructions__title {
+    color:hsl(14, 45%, 36%);
+    font-weight: 500;
+    font-family: "Young serif";
+    margin-left: 30px;
+    margin-right: 30px;
+
+
+}
+.instructions__list {
+      line-height: 30px;
+     margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.nutrition {
+     
+     margin-left: 30px;
+    margin-right: 30px;
+
+}
+.nutrition__title{
+    color:hsl(14, 45%, 36%);
+    font-weight: 500;
+    font-family: "Young serif";
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.nutrition__table {
+border-bottom: 1px solid hsl(30, 18%, 87%);  
+align-content: space-between;
+}
